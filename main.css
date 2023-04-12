@@ -1,29 +1,32 @@
-.calc {
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  font-family: 'Courier New', Courier, monospace;
-  border: 2px solid black;
-}
+
 
 .screen {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
   width: auto;
-  height: 100px;
+  height: 85px;
   border: 2px solid black;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #000000;
   font-family: monospace;
-  }
+  font-size: 35px;
+}
 
 .pad {
   display: flex;
   justify-content: space-between;
   width: 400px;
-  height: 75px;
+  height: 100px;
   align-content: space-evenly;
   
 }
 
 #zero {
+  width: 300px;
+}
+
+#clear {
   width: 200px;
 }
 
@@ -55,4 +58,12 @@ button {
 
 .func:active {
   background-color: #dd8d37;
+}
+
+.calc {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  font-family: 'Courier New', Courier, monospace;
+  border: 2px solid black;
 }
